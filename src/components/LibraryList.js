@@ -9,7 +9,7 @@ class LibraryList extends Component {
 }
 
 const mapStateToProps = state => {
-    console.log(state.libraries);
+    console.log();
 };
 
 export default connect()(LibraryList);
